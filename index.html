@@ -39,6 +39,18 @@
       <li>.gitignore -> exclude file from being tracked by git. (this folder must be tracked in the git repo)</li>
       <li>git diff {git hist commit id} HEAD -> compare difference of commit to latest commit</li>
       <li>git diff -> compare difference of working directory to latest commit</li>
+      <li>git help diff -> overview of git diff commands</li>
+      <li>git branch -> shows branches and highlites current branch</li>
+      <li>git checkout -b {branch name} -> creates new branch and switches to this branch (adopts current pending changes)</li>
     </ul>
   </body>
 </html>
+
+<!-- 
+  -> HEAD refers to last commit of current branch
+  -> FastForward merge happens in the simplest forms of merging when no additional work has been 
+     detected on the parent (master) branch
+  -> Automatic merge happens when git detects non-conflicting changes on the master branch
+  -> Manual merge happens when git is unable to automatically resolve conflicts. Git enters a conflicting merge state
+     All conflicts must be resolve before moving forward to commit.
+-->
