@@ -26,6 +26,12 @@
       <li>git commit -am "add commit message here" -> sames git commit -a but adds message</li>
       <li>git reset HEAD {filename} -> unstage file</li>
       <li>git checkout -- {filename} -> revert changes to last known commit</li>
+      <li>git help log -> extensive overview of git commands</li>
+      <li>git log --oneline --graph --decorate --all -> compact history overview of commits</li>
+      <li>git config --global alias.hist "log --oneline --graph --decorate --all" -> create hist alias for overview command</li>
+      <li>git config --global --list -> overview of git alias commands</li>
+      <li>git hist -> compact history overview of commits with alias</li>
+      <li>git hist -- {filename} -> compact history overview of commits of a single file with alias</li>
     </ul>
   </body>
 </html>
